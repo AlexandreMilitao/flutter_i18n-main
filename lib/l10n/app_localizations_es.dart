@@ -15,53 +15,53 @@ class AppLocalizationsEs extends AppLocalizations {
   String get dashboardTipRegisterText => 'Registra tu libro';
 
   @override
-  String get daschboardTipTakeNotesText => 'Tomar Notas';
+  String get daschboardTipTakeNotesText => 'Toma notas';
 
   @override
   String get dashboardTipVisializeText => 'Visualiza tu progreso';
 
   @override
-  String get loginDisplayText => 'Login';
+  String get loginDisplayText => 'Iniciar sesión';
 
   @override
-  String get loginEmailLabelText => 'E-mail';
+  String get loginEmailLabelText => 'Correo electrónico';
 
   @override
-  String get loginEmailHintText => 'youremail@domain.com';
+  String get loginEmailHintText => 'tucorreo@dominio.com';
 
   @override
-  String get loginPasswordLabelText => 'Password';
+  String get loginPasswordLabelText => 'Contraseña';
 
   @override
-  String get loginForgotPassword => 'Forgot password';
+  String get loginForgotPassword => 'Olvidé mi contraseña';
 
   @override
-  String get loginLoginButtonText => 'Login';
+  String get loginLoginButtonText => 'Iniciar sesión';
 
   @override
-  String get loginRegisterButtonText => 'Signup';
+  String get loginRegisterButtonText => 'Regístrate';
 
   @override
-  String get signupDisplayText => 'Signup';
+  String get signupDisplayText => 'Regístrate';
 
   @override
-  String get signupNameLabelText => 'Name';
+  String get signupNameLabelText => 'Nombre';
 
   @override
-  String get signupNameHintText => 'Your name here';
+  String get signupNameHintText => 'Tu nombre aquí';
 
   @override
-  String get signupEmailLabelText => 'E-mail';
+  String get signupEmailLabelText => 'Correo electrónico';
 
   @override
-  String get signupEmailHintText => 'youremail@domain.com';
+  String get signupEmailHintText => 'tucorreo@dominio.com';
 
   @override
-  String get signupPasswordLabelText => 'Password';
+  String get signupPasswordLabelText => 'Contraseña';
 
   @override
-  String get signupSiginupButtonText => 'Signup';
+  String get signupSiginupButtonText => 'Regístrate';
 
   @override
-  String get signupLoginButtonText => 'Login';
+  String get signupLoginButtonText => 'Iniciar sesión';
 }

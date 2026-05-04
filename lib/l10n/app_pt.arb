@@ -2,6 +2,21 @@
     "@@locale": "pt",
     "dashboardEnterButton": "Começar",
     "dashboardTipRegisterText": "Registre seu livro",
-    "daschboardTipTakeNotesText": "Faça Anotações",
-    "dashboardTipVisializeText": "Visualize seu progresso"
+    "dashboardTipTakeNotesText": "Faça anotações",
+    "dashboardTipVisializeText": "Visualize seu progresso",
+    "loginDisplayText": "Login",
+    "loginEmailLabelText": "E-mail",
+    "loginEmailHintText": "seuemail@dominio.com",
+    "loginPasswordLabelText": "Senha",
+    "loginForgotPassword": "Esqueceu a senha",
+    "loginLoginButtonText": "Entrar",
+    "loginRegisterButtonText": "Cadastre-se",
+    "signupDisplayText": "Cadastre-se",
+    "signupNameLabelText": "Nome",
+    "signupNameHintText": "Seu nome aqui",
+    "signupEmailLabelText": "E-mail",
+    "signupEmailHintText": "seuemail@dominio.com",
+    "signupPasswordLabelText": "Senha",
+    "signupSiginupButtonText": "Cadastre-se",
+    "signupLoginButtonText": "Login"
 }

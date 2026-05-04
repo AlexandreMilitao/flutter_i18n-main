@@ -2,6 +2,21 @@
     "@@locale": "es",
     "dashboardEnterButton": "Empezar",
     "dashboardTipRegisterText": "Registra tu libro",
-    "daschboardTipTakeNotesText": "Tomar Notas",
-    "dashboardTipVisializeText": "Visualiza tu progreso"
+    "dashboardTipTakeNotesText": "Toma notas",
+    "dashboardTipVisializeText": "Visualiza tu progreso",
+    "loginDisplayText": "Iniciar sesión",
+    "loginEmailLabelText": "Correo electrónico",
+    "loginEmailHintText": "tucorreo@dominio.com",
+    "loginPasswordLabelText": "Contraseña",
+    "loginForgotPassword": "Olvidé mi contraseña",
+    "loginLoginButtonText": "Iniciar sesión",
+    "loginRegisterButtonText": "Regístrate",
+    "signupDisplayText": "Regístrate",
+    "signupNameLabelText": "Nombre",
+    "signupNameHintText": "Tu nombre aquí",
+    "signupEmailLabelText": "Correo electrónico",
+    "signupEmailHintText": "tucorreo@dominio.com",
+    "signupPasswordLabelText": "Contraseña",
+    "signupSiginupButtonText": "Regístrate",
+    "signupLoginButtonText": "Iniciar sesión"
 }

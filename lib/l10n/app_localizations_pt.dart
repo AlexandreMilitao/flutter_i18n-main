@@ -15,7 +15,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get dashboardTipRegisterText => 'Registre seu livro';
 
   @override
-  String get daschboardTipTakeNotesText => 'Faça Anotações';
+  String get daschboardTipTakeNotesText => 'Faça anotações';
 
   @override
   String get dashboardTipVisializeText => 'Visualize seu progresso';
@@ -27,40 +27,40 @@ class AppLocalizationsPt extends AppLocalizations {
   String get loginEmailLabelText => 'E-mail';
 
   @override
-  String get loginEmailHintText => 'youremail@domain.com';
+  String get loginEmailHintText => 'seuemail@dominio.com';
 
   @override
-  String get loginPasswordLabelText => 'Password';
+  String get loginPasswordLabelText => 'Senha';
 
   @override
-  String get loginForgotPassword => 'Forgot password';
+  String get loginForgotPassword => 'Esqueceu a senha';
 
   @override
-  String get loginLoginButtonText => 'Login';
+  String get loginLoginButtonText => 'Entrar';
 
   @override
-  String get loginRegisterButtonText => 'Signup';
+  String get loginRegisterButtonText => 'Cadastre-se';
 
   @override
-  String get signupDisplayText => 'Signup';
+  String get signupDisplayText => 'Cadastre-se';
 
   @override
-  String get signupNameLabelText => 'Name';
+  String get signupNameLabelText => 'Nome';
 
   @override
-  String get signupNameHintText => 'Your name here';
+  String get signupNameHintText => 'Seu nome aqui';
 
   @override
   String get signupEmailLabelText => 'E-mail';
 
   @override
-  String get signupEmailHintText => 'youremail@domain.com';
+  String get signupEmailHintText => 'seuemail@dominio.com';
 
   @override
-  String get signupPasswordLabelText => 'Password';
+  String get signupPasswordLabelText => 'Senha';
 
   @override
-  String get signupSiginupButtonText => 'Signup';
+  String get signupSiginupButtonText => 'Cadastre-se';
 
   @override
   String get signupLoginButtonText => 'Login';

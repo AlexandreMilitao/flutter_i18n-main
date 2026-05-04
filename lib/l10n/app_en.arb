@@ -8,8 +8,8 @@
     "@dashboardTipRegisterText": {
         "description": "Dica do carrosel"
     },
-    "daschboardTipTakeNotesText": "Take Notes",
-    "@daschboardTipTakeNotesText": {
+    "dashboardTipTakeNotesText": "Take Notes",
+    "@dashboardTipTakeNotesText": {
         "description": "Dica do carrosel"
     },
     "dashboardTipVisializeText": "Visualize your progress",
