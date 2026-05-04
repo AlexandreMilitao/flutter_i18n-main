@@ -5,6 +5,7 @@ import '../screens/home.dart';
 import '../screens/components/primary_button.dart';
 import '../screens/sign_up.dart';
 import '../theme.dart';
+import 'package:flutter_i18n/l10n/app_localizations.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -32,9 +33,10 @@ class _LoginState extends State<Login> {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      const Padding(
-                        padding: EdgeInsets.only(bottom: 40.0),
-                        child: DisplayText("Login"),
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 40.0),
+                        child: DisplayText(
+                            AppLocalizations.of(context)!.loginDisplayText),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(bottom: 24.0),
@@ -54,14 +56,20 @@ class _LoginState extends State<Login> {
                                       InputDecorationProperties.textDecoration,
                                   decoration: InputDecorationProperties
                                       .newInputDecoration(
-                                          "seuemail@dominio.com", "E-mail"),
+                                          AppLocalizations.of(context)!
+                                              .loginEmailHintText,
+                                          AppLocalizations.of(context)!
+                                              .loginEmailLabelText),
                                   keyboardType: TextInputType.emailAddress,
                                 ),
                               ),
                               TextFormField(
                                 style: InputDecorationProperties.textDecoration,
                                 decoration: InputDecorationProperties
-                                    .newInputDecoration("******", "Senha"),
+                                    .newInputDecoration(
+                                        "******",
+                                        AppLocalizations.of(context)!
+                                            .loginPasswordLabelText),
                                 obscureText: true,
                               ),
                               Padding(
@@ -71,15 +79,17 @@ class _LoginState extends State<Login> {
                                       padding: const EdgeInsets.symmetric(
                                           vertical: 8.0)),
                                   onPressed: () {},
-                                  child: const Text(
-                                    "Esqueci a senha",
-                                    style: TextStyle(
+                                  child: Text(
+                                    AppLocalizations.of(context)!
+                                        .loginForgotPassword,
+                                    style: const TextStyle(
                                         decoration: TextDecoration.underline),
                                   ),
                                 ),
                               ),
                               PrimaryButton(
-                                  text: "Entrar",
+                                  text: AppLocalizations.of(context)!
+                                      .loginLoginButtonText,
                                   onTap: () {
                                     Navigator.push(
                                         context,
@@ -103,7 +113,8 @@ class _LoginState extends State<Login> {
                                                 const Signup()));
                                   },
                                   child: Text(
-                                    "Cadastre-se",
+                                    AppLocalizations.of(context)!
+                                        .loginRegisterButtonText,
                                     style: TextStyle(
                                       color: AppColors.white,
                                       fontSize: 15,

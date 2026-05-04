@@ -3,5 +3,45 @@
     "dashboardEnterButton": "Start",
     "@dashboardEnterButton": {
         "description": "Botao 'Entrar da tela de dashboard'"
+    },
+    "dashboardTipRegisterText": "Register your book",
+    "@dashboardTipRegisterText": {
+        "description": "Dica do carrosel"
+    },
+    "daschboardTipTakeNotesText": "Take Notes",
+    "@daschboardTipTakeNotesText": {
+        "description": "Dica do carrosel"
+    },
+    "dashboardTipVisializeText": "Visualize your progress",
+    "@dashboardTipVisializeText": {
+        "description": "Dica do carrosel"
+    },
+    "loginDisplayText": "Login",
+    "@loginDisplayText": {
+        "description": "Display tela de Login"
+    },
+    "loginEmailLabelText": "E-mail",
+    "@loginEmailLabelText": {
+        "description": "Label text field E-mail"
+    },
+    "loginEmailHintText": "youremail@domain.com",
+    "@loginEmailHintText": {
+        "description": "Texto de auxilio do campo de email."
+    },
+    "loginPasswordLabelText": "Password",
+    "@loginPasswordLabelText": {
+        "description": "Label text field senha"
+    },
+    "loginForgotPassword": "Forgot password",
+    "@loginForgotPassword": {
+        "description": "Botao de esqueci a senha"
+    },
+    "loginLoginButtonText": "Login",
+    "@loginLoginButtonText": {
+        "description": "Botao de login"
+    },
+    "loginRegisterButtonText": "Signup",
+    "@loginRegisterButtonText": {
+        "description": "Botao para registra-se"
     }
 }

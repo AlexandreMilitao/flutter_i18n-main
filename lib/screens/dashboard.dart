@@ -26,18 +26,21 @@ class Dashboard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   CarouselSlider(
-                    items: const [
+                    items: [
                       CarouselItem(
                         imagePath: 'carousel-001.png',
-                        text: "Registre seus livros",
+                        text: AppLocalizations.of(context)!
+                            .dashboardTipRegisterText,
                       ),
                       CarouselItem(
                         imagePath: 'carousel-002.png',
-                        text: "Faça anotações",
+                        text: AppLocalizations.of(context)!
+                            .daschboardTipTakeNotesText,
                       ),
                       CarouselItem(
                         imagePath: 'carousel-003.png',
-                        text: "Visualize seu progresso",
+                        text: AppLocalizations.of(context)!
+                            .dashboardTipVisializeText,
                       ),
                     ],
                     options: CarouselOptions(

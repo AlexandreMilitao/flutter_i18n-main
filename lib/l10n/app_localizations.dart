@@ -105,6 +105,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Start'**
   String get dashboardEnterButton;
+
+  /// Dica do carrosel
+  ///
+  /// In en, this message translates to:
+  /// **'Register your book'**
+  String get dashboardTipRegisterText;
+
+  /// Dica do carrosel
+  ///
+  /// In en, this message translates to:
+  /// **'Take Notes'**
+  String get daschboardTipTakeNotesText;
+
+  /// Dica do carrosel
+  ///
+  /// In en, this message translates to:
+  /// **'Visualize your progress'**
+  String get dashboardTipVisializeText;
+
+  /// Display tela de Login
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get loginDisplayText;
+
+  /// Label text field E-mail
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail'**
+  String get loginEmailLabelText;
+
+  /// Texto de auxilio do campo de email.
+  ///
+  /// In en, this message translates to:
+  /// **'youremail@domain.com'**
+  String get loginEmailHintText;
+
+  /// Label text field senha
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get loginPasswordLabelText;
+
+  /// Botao de esqueci a senha
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot password'**
+  String get loginForgotPassword;
+
+  /// Botao de login
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get loginLoginButtonText;
+
+  /// Botao para registra-se
+  ///
+  /// In en, this message translates to:
+  /// **'Signup'**
+  String get loginRegisterButtonText;
 }
 
 class _AppLocalizationsDelegate

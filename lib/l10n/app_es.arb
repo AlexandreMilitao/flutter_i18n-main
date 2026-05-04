@@ -1,7 +1,7 @@
 {
     "@@locale": "es",
     "dashboardEnterButton": "Empezar",
-    "@dashboardEnterButton": {
-        "description": "Botao 'Entrar da tela de dashboard'"
-    }
+    "dashboardTipRegisterText": "Registra tu libro",
+    "daschboardTipTakeNotesText": "Tomar Notas",
+    "dashboardTipVisializeText": "Visualiza tu progreso"
 }
