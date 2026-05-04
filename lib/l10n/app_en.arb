@@ -43,5 +43,37 @@
     "loginRegisterButtonText": "Signup",
     "@loginRegisterButtonText": {
         "description": "Botao para registra-se"
+    },
+    "signupDisplayText": "Signup",
+    "@signupDisplayText": {
+        "description": "Display texto na pagina de signup"
+    },
+    "signupNameLabelText": "Name",
+    "@signupNameLabelText": {
+        "description": "Campo de Nome"
+    },
+    "signupNameHintText": "Your name here",
+    "@signupNameHintText": {
+        "description": "Texto de auxilo"
+    },
+    "signupEmailLabelText": "E-mail",
+    "@signupEmailLabelText": {
+        "description": "Campo de email"
+    },
+    "signupEmailHintText": "youremail@domain.com",
+    "@signupEmailHintText": {
+        "description": "Texto de auxilio"
+    },
+    "signupPasswordLabelText": "Password",
+    "@signupPasswordLabelText": {
+        "description": "Campo de senha."
+    },
+    "signupSiginupButtonText": "Signup",
+    "@signupSiginupButtonText": {
+        "description": "Botao de cadastar"
+    },
+    "signupLoginButtonText": "Login",
+    "@signupLoginButtonText": {
+        "description": "Botao para fazer login"
     }
 }

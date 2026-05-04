@@ -165,6 +165,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Signup'**
   String get loginRegisterButtonText;
+
+  /// Display texto na pagina de signup
+  ///
+  /// In en, this message translates to:
+  /// **'Signup'**
+  String get signupDisplayText;
+
+  /// Campo de Nome
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get signupNameLabelText;
+
+  /// Texto de auxilo
+  ///
+  /// In en, this message translates to:
+  /// **'Your name here'**
+  String get signupNameHintText;
+
+  /// Campo de email
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail'**
+  String get signupEmailLabelText;
+
+  /// Texto de auxilio
+  ///
+  /// In en, this message translates to:
+  /// **'youremail@domain.com'**
+  String get signupEmailHintText;
+
+  /// Campo de senha.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get signupPasswordLabelText;
+
+  /// Botao de cadastar
+  ///
+  /// In en, this message translates to:
+  /// **'Signup'**
+  String get signupSiginupButtonText;
+
+  /// Botao para fazer login
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get signupLoginButtonText;
 }
 
 class _AppLocalizationsDelegate

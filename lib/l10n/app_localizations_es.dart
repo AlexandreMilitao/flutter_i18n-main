@@ -40,4 +40,28 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get loginRegisterButtonText => 'Signup';
+
+  @override
+  String get signupDisplayText => 'Signup';
+
+  @override
+  String get signupNameLabelText => 'Name';
+
+  @override
+  String get signupNameHintText => 'Your name here';
+
+  @override
+  String get signupEmailLabelText => 'E-mail';
+
+  @override
+  String get signupEmailHintText => 'youremail@domain.com';
+
+  @override
+  String get signupPasswordLabelText => 'Password';
+
+  @override
+  String get signupSiginupButtonText => 'Signup';
+
+  @override
+  String get signupLoginButtonText => 'Login';
 }
