@@ -1,0 +1,7 @@
+{
+    "@@locale": "es",
+    "dashboardEnterButton": "Empezar",
+    "@dashboardEnterButton": {
+        "description": "Botao 'Entrar da tela de dashboard'"
+    }
+}

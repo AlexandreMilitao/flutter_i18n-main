@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'screens/splash.dart';
 
@@ -16,6 +17,16 @@ class Grimorio extends StatelessWidget {
       title: "Meu Pequeno Grimório",
       theme: ThemeData.dark(useMaterial3: true),
       debugShowCheckedModeBanner: false,
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale("en"),
+        Locale("pt", "BR"),
+        Locale("es"),
+      ],
       home: const SplashScreen(),
     );
   }
