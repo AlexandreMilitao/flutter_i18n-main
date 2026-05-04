@@ -26,7 +26,7 @@ class _SignupState extends State<Signup> {
             child: Column(
               children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.only(bottom: 16.0),
+                  padding: const EdgeInsets.only(bottom: 16.0),
                   child: DisplayText(
                       AppLocalizations.of(context)!.signupDisplayText),
                 ),
