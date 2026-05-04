@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/l10n/app_localizations.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../screens/components/carousel_item.dart';
 import '../screens/login.dart';
@@ -58,7 +59,7 @@ class Dashboard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: PrimaryButton(
-                      text: "Entrar",
+                      text: AppLocalizations.of(context)!.dashboardEnterButton,
                       onTap: () {
                         Navigator.push(
                           context,
