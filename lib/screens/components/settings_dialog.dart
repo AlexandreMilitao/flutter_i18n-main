@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/controller/localization_manager.dart';
+import 'package:flutter_i18n/screens/components/show_loading_dialog.dart';
 import 'package:provider/provider.dart';
 
 import '../../dao/book_database.dart';
@@ -152,7 +153,10 @@ class _SettingsDialogState extends State<_SettingsDialog> {
         newCode = "es";
         break;
     }
-    context.read<LocalizationManager>().setLanguage(newCode);
+    showLoadingDialog(
+      context,
+      context.read<LocalizationManager>().setLanguage(newCode),
+    );
   }
 }
 
