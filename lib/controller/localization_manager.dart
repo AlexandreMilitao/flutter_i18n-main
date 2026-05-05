@@ -49,4 +49,7 @@ class LocalizationManager with ChangeNotifier {
   String get defaultDeviceLanguageItem =>
       _getSentence("defaultDeviceLanguageItem");
   String get clearButton => _getSentence("clearButton");
+  String get homeTitle => _getSentence("homeTitle");
+  String get homeEmpty => _getSentence("homeEmpty");
+  String get homeEmptyCall => _getSentence("homeEmptyCall");
 }

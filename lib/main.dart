@@ -6,8 +6,12 @@ import 'package:provider/provider.dart';
 
 import 'screens/splash.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   LocalizationManager localizationManager = LocalizationManager("en");
+  await localizationManager.getLanguageFromServer("en");
+
   runApp(ChangeNotifierProvider(
     create: (context) => localizationManager,
     child: const Grimorio(),
