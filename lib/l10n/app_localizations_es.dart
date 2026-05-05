@@ -15,7 +15,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get dashboardTipRegisterText => 'Registra tu libro';
 
   @override
-  String get daschboardTipTakeNotesText => 'Toma notas';
+  String get dashboardTipTakeNotesText => 'Toma notas';
 
   @override
   String get dashboardTipVisializeText => 'Visualiza tu progreso';

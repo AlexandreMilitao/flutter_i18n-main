@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Padding(
                 padding: const EdgeInsets.only(top: 16),
                 child: Image.asset(
-                  'assets/images/grimorio_titulo_1152.png',
+                  _getImagePathByLanguage(),
                   width: 300,
                 ),
               ),
@@ -75,5 +75,19 @@ class _SplashScreenState extends State<SplashScreen> {
         beginPosition: const Offset(1, 0),
       ),
     );
+  }
+
+  String _getImagePathByLanguage() {
+    String code = Localizations.localeOf(context).languageCode;
+    switch (code) {
+      case "pt":
+        return "assets/images/grimorio_titulo_1152.png";
+      case "en":
+        return "assets/images/grimorio_titulo_1152-en.png";
+      case "es":
+        return "assets/images/grimorio_titulo_1152-es.png";
+      default:
+        return "assets/images/grimorio_titulo_1152-en.png";
+    }
   }
 }

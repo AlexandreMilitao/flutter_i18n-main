@@ -116,7 +116,7 @@ abstract class AppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Take Notes'**
-  String get daschboardTipTakeNotesText;
+  String get dashboardTipTakeNotesText;
 
   /// Dica do carrosel
   ///
