@@ -35,7 +35,7 @@ class Dashboard extends StatelessWidget {
                       CarouselItem(
                         imagePath: 'carousel-002.png',
                         text: AppLocalizations.of(context)!
-                            .daschboardTipTakeNotesText,
+                            .dashboardTipTakeNotesText,
                       ),
                       CarouselItem(
                         imagePath: 'carousel-003.png',

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/controller/localization_manager.dart';
+import 'package:provider/provider.dart';
 
 import '../../dao/book_database.dart';
 import '../../theme.dart';
@@ -42,17 +44,22 @@ class _SettingsDialogState extends State<_SettingsDialog> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const Text("Idioma", style: TextStyle(fontWeight: FontWeight.bold)),
+          Text(
+            context.watch<LocalizationManager>().languageText,
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
           DropdownButtonFormField<DisplayedLanguages>(
-            value: _language,
+            initialValue: _language,
             items: [
-              const DropdownMenuItem(
+              DropdownMenuItem(
                 value: DisplayedLanguages.device,
                 child: Row(
                   children: [
-                    Icon(Icons.devices, size: 24),
-                    SizedBox(width: 8),
-                    Text("Padrão do Dispositivo"),
+                    const Icon(Icons.devices, size: 24),
+                    const SizedBox(width: 8),
+                    Text(context
+                        .watch<LocalizationManager>()
+                        .deviceStandardText),
                   ],
                 ),
               ),
@@ -102,14 +109,14 @@ class _SettingsDialogState extends State<_SettingsDialog> {
               }
             },
           ),
-          const Text(
-            "Limpar todos os livros",
-            style: TextStyle(
+          Text(
+            context.watch<LocalizationManager>().clearBookText,
+            style: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
           ),
           PrimaryButton(
-            text: "Limpar",
+            text: context.watch<LocalizationManager>().cleanText,
             onTap: () {
               wipeBooks();
             },
@@ -127,10 +134,26 @@ class _SettingsDialogState extends State<_SettingsDialog> {
   void closeDialog() {
     Navigator.pop(context);
   }
-}
 
-void onChangedLanguage(DisplayedLanguages language) {
-  //TODO: Comportamento de troca de linguagem
+  void onChangedLanguage(DisplayedLanguages language) {
+    String newCode = "en";
+
+    switch (language) {
+      case DisplayedLanguages.device:
+        newCode = Localizations.localeOf(context).languageCode;
+        break;
+      case DisplayedLanguages.portuguese:
+        newCode = "pt";
+        break;
+      case DisplayedLanguages.english:
+        newCode = "en";
+        break;
+      case DisplayedLanguages.spanish:
+        newCode = "es";
+        break;
+    }
+    context.read<LocalizationManager>().setLanguage(newCode);
+  }
 }
 
 enum DisplayedLanguages { device, portuguese, english, spanish }
