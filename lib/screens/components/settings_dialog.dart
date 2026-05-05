@@ -59,7 +59,7 @@ class _SettingsDialogState extends State<_SettingsDialog> {
                     const SizedBox(width: 8),
                     Text(context
                         .watch<LocalizationManager>()
-                        .deviceStandardText),
+                        .defaultDeviceLanguageItem),
                   ],
                 ),
               ),
@@ -116,7 +116,7 @@ class _SettingsDialogState extends State<_SettingsDialog> {
             ),
           ),
           PrimaryButton(
-            text: context.watch<LocalizationManager>().cleanText,
+            text: context.watch<LocalizationManager>().clearButton,
             onTap: () {
               wipeBooks();
             },
